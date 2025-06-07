@@ -1,0 +1,3 @@
+rootProject.name = 'ssg-order'
+
+include 'order-api','order-service','order-infrastructure'
