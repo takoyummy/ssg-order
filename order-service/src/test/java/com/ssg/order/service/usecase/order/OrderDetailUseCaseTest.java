@@ -35,7 +35,6 @@ public class OrderDetailUseCaseTest {
 		Long orderId = 1L;
 		OrderItem item = OrderItem.builder()
 			.productId(1000000001L)
-			.productName("이마트 생수")
 			.originalPrice(800)
 			.discountPrice(100)
 			.purchasePrice(700)

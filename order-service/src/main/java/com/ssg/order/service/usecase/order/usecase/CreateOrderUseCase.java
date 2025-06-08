@@ -33,7 +33,6 @@ public class CreateOrderUseCase {
 
 				return OrderItem.builder()
 					.productId(product.getId())
-					.productName(product.getName())
 					.originalPrice(product.getPrice())
 					.discountPrice(product.getDiscountAmount())
 					.purchasePrice(product.getPurchasePrice())
